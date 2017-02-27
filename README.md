@@ -1,4 +1,3 @@
-# Redbooth RTL
-Chrome extension that makes [Redbooth](http://redbooth.com) show Right to Left languages (such as Hebrew, Arabic, etc..) in the right way
+# Jira RTL
+Chrome extension that changes some key UI parts of [Jira](https://www.atlassian.com/software/jira) for Right to Left language support(such as Hebrew, Arabic, etc..)
 
-Available for download to your Chrome browser from [chrome web store](https://chrome.google.com/webstore/detail/redbooth-rtl/ljjpkaoobmbpgmgikifbepiecnhfljaa)
