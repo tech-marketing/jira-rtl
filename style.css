@@ -1,0 +1,33 @@
+@CHARSET "UTF-8";
+body{direction: ltr;}
+/* Text of issue description */
+.rtl #description-val{direction: rtl;}
+/* Body of comment in issue page */
+.rtl .activity-comment .action-body {direction: rtl;}
+/* Textarea for inserting new comment */
+.rtl .comment-input textarea#comment {direction: rtl;}
+
+/* Textarea for WIKI description in issue screen */
+.rtl .wiki-edit-content textarea {direction: rtl}
+
+/* Text fields inside form screen (such as Summary) */
+.rtl .form-body input.text.long-field {direction: rtl}
+
+
+/* Compact issue row in backlog */
+.rtl .ghx-issue-compact {direction: rtl;}
+.rtl .ghx-issue-compact .ghx-issue-content {padding-left: 0; padding-right: 5px}
+.rtl .ghx-backlog-card.ghx-no-card-color .ghx-issue-content{padding-right: 0;}
+.rtl .ghx-backlog-card .ghx-items-container > *,
+.rtl .ghx-backlog-card .items-spacer{margin-right: 0; margin-left: 10px;}
+.rtl .ghx-backlog-card .ghx-items-container {margin-left: 0;}
+.rtl .ghx-issue-compact .ghx-end{left: 0; right: auto;}
+.rtl.ghx-plan-band-2 .ghx-issue-compact .ghx-end.ghx-row {right: auto; left: 0;}
+
+/* Summary on brief screen in backlog */
+.rtl dd.ghx-detail-description.ghx-fieldname-description,
+.rtl dd.ghx-detail-description.ghx-fieldname-summary,
+.rtl .ghx-detail-view .ghx-fieldtype-textarea.ghx-editing{direction: rtl;}
+
+/* Issue link summary list item */
+.rtl .details-layout .split-view .list-results-panel .list-panel .issue-list>li .splitview-issue-link .issue-link-summary {direction: rtl; text-align: right;}
